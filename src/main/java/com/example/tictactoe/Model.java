@@ -53,7 +53,6 @@ public class Model {
 
         do {
             buttonIndex = random.nextInt(0, 8);
-            System.out.println("LOOP");
         } while (board[buttonIndex] != EMPTY);
         return buttonIndex;
     }
